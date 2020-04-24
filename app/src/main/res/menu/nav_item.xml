@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/homeicon"
+        android:title="Home"
+        android:enabled="true"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/call"
+        android:title="Call"
+        android:enabled="true"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/camera"
+        android:iconTintMode="screen"
+        android:visible="true"
+        android:title="Camera"
+        android:contentDescription="this is camera"
+        android:enabled="true"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/music"
+        android:icon="@drawable/music"
+        android:title="Music"
+        android:enabled="true"
+        app:showAsAction="ifRoom">
+    </item>
+
+
+</menu>
